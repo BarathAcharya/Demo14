@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.navbar-nav .nav-link{
+    margin-left:0.8rem;
+    color:#fff;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight:500;
+    font-size:16px;
+}
+.navbar-nav .nav-link:hover{
+  background-color:#fd9701;
+  border-radius:50px;
+  color:#fff;
+}
+.navbar-brand{
+  color:#fff;
+  font-size:30px;
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight:900;
+  
+}
+
+.navbar-toggler-icon{
+  padding:4px;
+  border-color:#ffffff !important;
+}
+.hdg{
+    padding:180px;
+    line-height:2rem;
+    font-family: 'Hind Siliguri', sans-serif;
+    font-weight:900;
+    color:#fff;
+    font-size:22px;
+}
+.hdg h1{
+    font-weight:900;
+    font-family: 'Hind Siliguri', sans-serif;
+    color:#fff;
+    font-size:60px;
+}
+.hdg img{
+  margin-top: 0px;
+}
+main{
+  
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/hom.jpg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   
+}
+svg{
+  color:#fd9701;
+}
+span{
+  color:#fd9701;
+}
+.btn-primary{
+  background-color:#fd9701;
+  color:#fff;
+  border-color: #fd9701;
+}
+.backtotop{
+  position:fixed;
+  bottom:20px;
+  right:20px;
+  color: #fd9701;
+}
+#about{
+  background-color: #fff;
+ padding:80px;
+}
+.accordion-button{
+  color: #fd9701;
+  font-weight:500;
+}
+#number{
+  background-color: #fff;
+  padding:50px;
+  font-size:41px;
+  background-color: #f7f7f7;
+}
+#services{
+  background-color: #fff;
+  padding:80px;
+
+}
+#ft{
+  background-color: black;
+  color:#fff;
+}
+#contact{
+  background-color:#f7f7f7;
+  padding:20px;
+}
